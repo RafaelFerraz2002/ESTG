@@ -1,0 +1,19 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="associados">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="associado">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="numero" type="xs:integer"></xs:element>
+                            <xs:element name="nome" type="xs:string"></xs:element>
+                            <xs:element name="tipo" type="xs:string"></xs:element>
+                            <xs:element name="clubes" type="xs:string"></xs:element>
+                            <xs:element name="sede" type="xs:string"></xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

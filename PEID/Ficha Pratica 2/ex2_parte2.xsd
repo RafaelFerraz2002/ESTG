@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cursos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="curso">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="apresentacao">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="descricao" type="xs:string"></xs:element>
+                                        <xs:element name="objetivos">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="objetivo" type="xs:string" minOccurs="3" maxOccurs="10"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="regime" type="xs:string"></xs:element>
+                                        <xs:element name="coordenador" type="xs:string"></xs:element>
+                                        <xs:element name="area">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="codigo" type="xs:int"></xs:attribute>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="registo">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="data" type="xs:date"></xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="numero" type="xs:string"></xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="publicacao">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="data" type="xs:date"></xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="despacho" type="xs:string"></xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="local">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="Lousada|Felgueiras"></xs:pattern>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

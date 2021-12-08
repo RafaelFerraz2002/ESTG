@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cursos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ex2_parte2.xsd">
+    <curso>
+        <apresentacao>
+            <descricao>DWDM</descricao>
+            <objetivos>
+                <objetivo>
+                    Desenvolver/programar aplicações para a web e para dispositivos móveis;
+                </objetivo>
+                <objetivo>
+                    Elaborar análises de problemas reais, com complexidade variável, de modo a caracterizar o contexto de desenvolvimento de aplicações para a web e dispositivos móveis;
+                </objetivo>
+                <objetivo>
+                    Projetar o desenvolvimento de aplicações em ambiente web e/ou para dispositivos móveis, nomeadamente no que diz respeito ao desenho técnico do sistema;
+                </objetivo>
+                <objetivo>
+                    Desenhar e estruturar conteúdo para aplicações web e/ou aplicações para dispositivos móveis;
+                </objetivo>
+                <objetivo>
+                    Testar, instalar, configurar e distribuir o produto de software para ambiente web ou dispositivos móveis.
+                </objetivo>
+            </objetivos>
+            <regime>Diurno</regime>
+            <coordenador>Fabio</coordenador>
+            <area codigo="481"> Ciências informáticas</area>
+            <registo numero="R/Cr 214.1/2015">
+                <data>2001-01-01</data>
+            </registo>
+            <publicacao despacho="6843/2021">
+                <data>2021-07-12</data>
+            </publicacao>
+            <local>Lousada</local>
+        </apresentacao>
+    </curso>
+</cursos>

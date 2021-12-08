@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="livro" type="xs:string"></xs:element>
+
+    <xs:element name="livro2">
+        <xs:complexType>
+            <xs:attribute name="isbn" type="xs:positiveInteger"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="livro3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="titulo" type="xs:string"></xs:element>
+                <xs:element name="autor" type="xs:string"></xs:element>
+                <xs:element name="ano" type="xs:integer"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="livro4">
+        <xs:complexType>
+            <xs:simpleContent>
+                <!--explicar se a extension é simple ou complex -->
+                <xs:extension base="xs:string">
+                    <!--extension para conseguir atributos e texto -->
+                    <xs:attribute name="isbn" type="xs:positiveInteger"></xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="livro5">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="titulo" type="xs:string"></xs:element>
+                <xs:element name="autor" type="xs:string"></xs:element>
+                <xs:element name="ano" type="xs:integer"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="isbn" type="xs:positiveInteger"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>  

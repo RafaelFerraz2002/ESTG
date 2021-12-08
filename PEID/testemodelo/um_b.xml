@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recibo>
+    <numero>3421</numero>
+    <data>10-01-2022</data>
+    <Produtos>
+        <Produto>
+            <Nome>Bola de tenis</Nome>
+            <Quantidade>2</Quantidade>
+            <Preco>2.25</Preco>
+        </Produto>
+        <Produto>
+            <Nome>Raquete de tenis</Nome>
+            <Quantidade>2</Quantidade>
+            <Preco>115.5</Preco>
+        </Produto>
+    </Produtos>
+</recibo>

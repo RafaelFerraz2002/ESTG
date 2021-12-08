@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ex03.xsd">
+    <empresa id="20">
+        <designacao>oi</designacao>
+        <localidade>Pelourinho</localidade>
+    </empresa>
+    <departamentos>
+        <departamento numero="1">
+            <id_empresa>1</id_empresa>
+            <designacao>ola</designacao>
+            <telefone>1</telefone>
+            <email>sla</email>
+        </departamento>
+        <departamento numero="2">
+            <id_empresa>1</id_empresa>
+            <designacao>ola</designacao>
+            <telefone>1</telefone>
+            <email>sla</email>
+        </departamento>
+    </departamentos>
+    <Funcionarios>
+        <funcionario id="1">
+            <id_departamento>20</id_departamento>
+            <morada>Rua</morada>
+            <email>botarota2013@gmail.com</email>
+        </funcionario>
+        <funcionario id="2">
+            <id_departamento>20</id_departamento>
+            <morada>Rua</morada>
+            <email>botarota2013@gmail.com</email>
+        </funcionario>
+    </Funcionarios>
+</empresas>

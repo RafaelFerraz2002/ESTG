@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ingredients>
+    <ingredient>
+        <name>Tomato</name>
+        <category>Vegetal</category>
+        <calories uni_ref="ml">18</calories>
+    </ingredient>
+    <ingredient>
+        <name>Spinach</name>
+        <category>Vegetal</category>
+        <calories uni_ref="ml">18</calories>
+    </ingredient>
+    <ingredient>
+        <name>Cheese</name>
+        <category>Dairy</category>
+        <calories uni_ref="ml">25</calories>
+    </ingredient>
+    <ingredient>
+        <name>Tomato Sauce</name>
+        <category>Sauce</category>
+        <calories uni_ref="ml">40</calories>
+    </ingredient>
+    <ingredient>
+        <name>Oregano</name>
+        <category>Herb</category>
+        <calories uni_ref="ml">45</calories>
+    </ingredient>
+    <ingredient>
+        <name>Chicken</name>
+        <category>Meat</category>
+        <calories uni_ref="ml">32</calories>
+    </ingredient>
+    <ingredient>
+        <name>Onion Sauce</name>
+        <category>Sauce</category>
+        <calories uni_ref="ml">55</calories>
+    </ingredient>
+    <ingredient>
+        <name>Pasta</name>
+        <category>Pasta</category>
+        <calories uni_ref="ml">43</calories>
+    </ingredient>
+</ingredients>

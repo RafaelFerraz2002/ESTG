@@ -1,0 +1,54 @@
+<cursos>
+    <curso numero_vagas = "20">
+        <nome>Informática</nome>
+        <diretor_curso>Abel Nogueira</diretor_curso>
+        <disciplinas>
+            <disciplina>Processo, Estruturação e Integração de Dados</disciplina>
+            <disciplina>Base de Dados</disciplina>
+            <disciplina>Introdução a Programação</disciplina>
+            <disciplina>Sistemas Operativos</disciplina>
+            <disciplina>Estatística</disciplina>
+        </disciplinas>
+    </curso>
+    <curso numero_vagas = "40">
+        <nome>Gestão Industrial</nome>
+        <diretor_curso>Carla Barbosa</diretor_curso>
+        <disciplinas>
+            <disciplina>Investigação Operacional</disciplina>
+            <disciplina>Introdução à Gestão</disciplina>
+            <disciplina>Economia</disciplina>
+            <disciplina>Contabilidade</disciplina>
+        </disciplinas>
+    </curso>
+    <curso numero_vagas = "15">
+        <nome>Comércio Internacional</nome>~
+        <diretor_curso>Sónia Tavares</diretor_curso>
+        <disciplinas>
+            <disciplina>Direito Internacional</disciplina>
+            <disciplina>Marketing</disciplina>
+            <disciplina>Estatística</disciplina>
+            <disciplina>Logística Internacional</disciplina>
+        </disciplinas>
+    </curso>
+    <curso numero_vagas = "50">
+        <nome>Farmácia</nome>
+        <diretor_curso>Hugo Mendes</diretor_curso>
+        <disciplinas>
+            <disciplina>Biologia Celular</disciplina>
+            <disciplina>Anatomia</disciplina>
+            <disciplina>Fisiologia</disciplina>
+            <disciplina>Bioquímica</disciplina>
+            <disciplina>Base de Dados</disciplina>
+        </disciplinas>
+    </curso>
+    <curso numero_vagas = "30">
+        <nome>Desporto</nome>
+        <diretor_curso>Pedro Soares</diretor_curso>
+        <disciplinas>
+            <disciplina>Desenvolvimento Motor</disciplina>
+            <disciplina>Gestão do Desporto</disciplina>
+            <disciplina>Animação Desportiva</disciplina>
+            <disciplina>Sociologia do Desporto</disciplina>
+        </disciplinas>
+    </curso>
+</cursos>

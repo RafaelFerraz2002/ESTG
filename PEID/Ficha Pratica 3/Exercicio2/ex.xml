@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prescricao xmlns="www.main.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.main.com main.xsd">
+    <data>2021-10-29</data>
+    <medico>
+        <nome>Rafinha</nome>
+        <especialidade>cardiologia</especialidade>
+    </medico>
+
+    <paciente>
+        <nome>Ramiro</nome>
+        <genero>masculino</genero>
+    </paciente>
+
+    <medicamentos>
+        <medicamento>
+            <nome>Ben-u-ron</nome>
+            <dosagem unidade="mg">10</dosagem>
+        </medicamento>
+        <medicamento>
+            <nome>Ben</nome>
+            <dosagem unidade="mg">10</dosagem>
+        </medicamento>
+    </medicamentos>
+</prescricao>

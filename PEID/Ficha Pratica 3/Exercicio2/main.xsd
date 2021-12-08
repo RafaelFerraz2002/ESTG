@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="www.main.com" xmlns:medicamento="www.medicamento.com" xmlns:paciente="www.paciente.com" xmlns:medico="www.medico.com" elementFormDefault="qualified">
+
+    <xs:import schemaLocation="./medicamentoTipo.xsd" namespace="www.medicamento.com"></xs:import>
+    <xs:import schemaLocation="./medicoTipo.xsd" namespace="www.medico.com"></xs:import>
+    <xs:import schemaLocation="./pacienteTipo.xsd" namespace="www.paciente.com"></xs:import>
+
+
+    <xs:element name="prescricao">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="data" type="xs:date" />
+
+                <xs:element name="medico">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="medico:nomeTipo" />
+                            <xs:element name="especialidade" type="medico:especialidadeTipo" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="paciente">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="paciente:nomeTipo" />
+                            <xs:element name="genero" type="paciente:generoTipo" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="medicamentos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="medicamento" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nome" type="medicamento:nomeTipo" />
+                                        <xs:element name="dosagem" type="medicamento:dosagemTipo" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

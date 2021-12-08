@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<answer>
+    <temp_mim_ar uni="graus">2</temp_mim_ar>
+    <temp_max_ar uni="graus">18</temp_max_ar>
+    <velocidades>
+        <velocidade_do_vento hora="8 horas">100</velocidade_do_vento>
+        <velocidade_do_vento hora="12 horas">200</velocidade_do_vento>
+        <velocidade_do_vento hora="16 horas">300</velocidade_do_vento>
+        <velocidade_do_vento hora="20 horas">400</velocidade_do_vento>
+    </velocidades>
+    <hora_nascer_sol uni="horas">7</hora_nascer_sol>
+    <hora_por_do_sol uni="horas">19</hora_por_do_sol>
+    <temp_mim_agua uni="graus">5</temp_mim_agua>
+    <temp_max_agua uni="graus">15</temp_max_agua>
+</answer>

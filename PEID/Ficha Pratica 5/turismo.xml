@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turismo>
+    <agencias>
+        <agencia>
+            <nome>Agência de viagens All Stars</nome>
+            <email>geralallstars@gmail.com</email>
+            <telefone>123456789</telefone>
+            <morada>
+                <rua>Rua do verão, nº 10</rua>
+                <codigoPostal>4900-039</codigoPostal>
+                <concelho>Viana do Castelo</concelho>
+                <distrito>Viana do Castelo</distrito>
+            </morada>
+        </agencia>
+        <agencia>
+            <nome>Best Travel</nome>
+            <email>geral@besttravel.com</email>
+            <telefone>987654321</telefone>
+            <morada>
+                <rua>Rua de cima, nº 5</rua>
+                <codigoPostal>4800-007</codigoPostal>
+                <concelho>Guimarães</concelho>
+                <distrito>Braga</distrito>
+            </morada>
+        </agencia>
+    </agencias>
+    
+    <clientes>
+        <cliente id="1">
+            <nome>Célia Souto</nome>
+            <morada>
+                <rua>Rua grande, nº 1</rua>
+                <codigoPostal>4800-007</codigoPostal>
+                <concelho>Guimarães</concelho>
+                <distrito>Braga</distrito>
+            </morada>
+        </cliente>
+        <cliente id="2">
+            <nome>Vasco Pereira</nome>
+            <morada>
+                <rua>Rua pequena, nº 2</rua>
+                <codigoPostal>4800-007</codigoPostal>
+                <concelho>Guimarães</concelho>
+                <distrito>Braga</distrito>
+            </morada>
+        </cliente>
+        <cliente id="3">
+            <nome>Carlos Correia</nome>
+            <morada>
+                <rua>Rua da travessa, nº 3</rua>
+                <codigoPostal>4800-007</codigoPostal>
+                <concelho>Guimarães</concelho>
+                <distrito>Braga</distrito>
+            </morada>
+        </cliente>
+        <cliente id="4">
+            <nome>Vera Lima</nome>
+            <morada>
+                <rua>Rua do campo, nº 4</rua>
+                <codigoPostal>4800-007</codigoPostal>
+                <concelho>Guimarães</concelho>
+                <distrito>Braga</distrito>
+            </morada>
+        </cliente>
+    </clientes>
+
+    <hoteis>		
+        <hotel id="1">
+            <nome>Resort praia azul</nome>
+            <morada>
+                <rua>Rua da praia azul, nº 4</rua>
+                <codigoPostal>8600-300</codigoPostal>
+                <concelho>Lagos</concelho>
+                <distrito>Faro</distrito>
+            </morada>
+            <numeroQuartos>200</numeroQuartos>
+            <categoria>5</categoria>
+            <caracteristicas>
+                <caracteristica>elevador</caracteristica>
+                <caracteristica>piscina exterior</caracteristica>
+                <caracteristica>lavandaria</caracteristica>
+                <caracteristica>restaurante</caracteristica>
+            </caracteristicas>
+        </hotel>     
+        <hotel id="2">
+            <nome>Hotel pôr-do-sol</nome>
+            <morada>
+                <rua>Avenida do mar, nº 40</rua>
+                <codigoPostal>4900-012</codigoPostal>
+                <concelho>Viana do Castelo</concelho>
+                <distrito>Viana do Castelo</distrito>
+            </morada>
+            <numeroQuartos>300</numeroQuartos>
+            <categoria>4</categoria>
+            <caracteristicas>
+                <caracteristica>elevador</caracteristica>
+                <caracteristica>lavandaria</caracteristica>
+                <caracteristica>restaurante</caracteristica>
+                <caracteristica>ginásio</caracteristica>
+            </caracteristicas>
+        </hotel>
+        <hotel id="3">
+            <nome>Hotel dias felizes</nome>
+            <morada>
+                <rua>Rua do moinho, nº 20</rua>
+                <codigoPostal>8000-079</codigoPostal>
+                <concelho>Faro</concelho>
+                <distrito>Faro</distrito>
+            </morada>
+            <numeroQuartos>150</numeroQuartos>
+            <categoria>4</categoria>
+            <caracteristicas>
+                <caracteristica>restaurante</caracteristica>
+                <caracteristica>ginásio</caracteristica>
+            </caracteristicas>
+        </hotel>
+    </hoteis>
+
+    <reservas>		
+        <reserva id="225" hotel="1" cliente="1">
+            <numeroHospedes>3</numeroHospedes>
+            <numeroNoites>4</numeroNoites>
+            <dataInicio>2021-08-10</dataInicio>
+            <preco>500</preco>
+            <pedidosCliente>
+                <pedido>Solicito check-in tardio (20h).</pedido>
+                <pedido>Solicito quarto com vista para o mar.</pedido>
+            </pedidosCliente>
+        </reserva>		
+        <reserva id="226" hotel="1" cliente="2">
+            <numeroHospedes>2</numeroHospedes>
+            <numeroNoites>7</numeroNoites>
+            <dataInicio>2021-07-10</dataInicio>
+            <preco>900</preco>
+            <pedidosCliente>
+                <pedido>Solicito quarto com varanda.</pedido>
+            </pedidosCliente>
+        </reserva>       
+        <reserva id="227" hotel="2" cliente="3">
+            <numeroHospedes>2</numeroHospedes>
+            <numeroNoites>5</numeroNoites>
+            <dataInicio>2021-08-15</dataInicio>
+            <preco>550</preco>
+        </reserva>       
+        <reserva id="228" hotel="2" cliente="1">
+            <numeroHospedes>3</numeroHospedes>
+            <numeroNoites>2</numeroNoites>
+            <dataInicio>2021-09-12</dataInicio>
+            <preco>190</preco>
+            <pedidosCliente>
+                <pedido>Solicito quarto com vista para o mar.</pedido>
+            </pedidosCliente>
+        </reserva>
+        <reserva id="229" hotel="3" cliente="4">
+            <numeroHospedes>2</numeroHospedes>
+            <numeroNoites>6</numeroNoites>
+            <dataInicio>2021-07-22</dataInicio>
+            <preco>650</preco>
+            <pedidosCliente>
+                <pedido>Solicito mini-bar no quarto.</pedido>
+            </pedidosCliente>
+        </reserva>
+        <reserva id="230" hotel="3" cliente="2">
+            <numeroHospedes>2</numeroHospedes>
+            <numeroNoites>3</numeroNoites>
+            <dataInicio>2021-09-10</dataInicio>
+            <preco>280</preco>
+        </reserva>       
+    </reservas> 
+
+</turismo>

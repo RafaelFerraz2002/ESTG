@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tasca_da_estg>
+    <pizza>
+        <nome>Veggie-Pizza</nome>
+        <base>Tiny</base>
+        <topping>
+            <ingridients>spinach</ingridients>
+            <ingridients>cheese</ingridients>
+            <ingridients>tomato sauces</ingridients>
+        </topping>
+        <price size="small">6.00€</price>
+        <price size="medium">8.00€</price>
+        <price size="big">12.00€</price>
+    </pizza>
+    <pizza>
+        <nome>Mozzarella-Pizza</nome>
+        <base>Crispy</base>
+        <topping>
+            <igridients>cheese</igridients>
+            <igridients>oregano</igridients>
+            <igridients>onion sauce</igridients>
+        </topping>
+        <price size="small">7.00€</price>
+        <price size="medium">8.50€</price>
+        <price size="big">13.00€</price>
+    </pizza>
+    <pizza>
+        <nome>Meat-Pizza</nome>
+        <base>Lean</base>
+        <topping>
+            <igridients>chicken</igridients>
+            <igridients>oregano</igridients>
+            <igridients>tomato sauce</igridients>
+        </topping>
+        <price size="small">6.00€</price>
+        <price size="medium">9.00€</price>
+        <price size="big">12.50€</price>
+    </pizza>
+    <pizza>
+        <nome>ESTG-Pizza</nome>
+        <base>Tiny</base>
+        <topping>
+            <igridients>spinach</igridients>
+            <igridients>cheese</igridients>
+            <igridients>omato sauce</igridients>
+            <igridients>chicken</igridients>
+        </topping>
+        <price size="small">6.00€</price>
+        <price size="medium">8.50€</price>
+        <price size="big">15.00€</price>
+    </pizza>
+</tasca_da_estg>

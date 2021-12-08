@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<email xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ex1_parte2.xsd">
+    <to>Tove@gmail.com</to>
+    <from>Jani@gmail.com</from>
+    <heading>Reminder</heading>
+    <body>Don’t forget me this weekend!</body>
+</email>

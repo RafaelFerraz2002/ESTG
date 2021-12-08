@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fatura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="main.xsd">
+    <numero>1000254</numero>
+    <data>2021-10-15</data>
+    <tipo_pagamento>transferência bancária</tipo_pagamento>
+    <cliente>
+        <nome>Alberto Silva</nome>
+        <nif>123456789</nif>
+        <morada>Rua da Escola, nº5 - Felgueiras</morada>
+    </cliente>
+    <produtos>
+        <produto>
+            <nome>portátil</nome>
+            <quantidade>1</quantidade>
+            <preco_unitario>800.00</preco_unitario>
+        </produto>
+        <produto>
+            <nome>televisão</nome>
+            <quantidade>1</quantidade>
+            <preco_unitario>1050.00</preco_unitario>
+        </produto>
+    </produtos>
+</fatura>

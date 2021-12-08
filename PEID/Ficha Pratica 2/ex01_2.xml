@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <livro5 isbn="19585" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ex01.xsd">
+    O livro
+    <titulo>Learning</titulo>
+    as
+    <autor>ss00</autor>
+    sss
+    <ano>2022</ano>
+</livro5> -->
+
+<livro2 isbn="19585" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ex01.xsd"></livro2>

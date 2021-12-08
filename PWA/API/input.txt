@@ -1,0 +1,11 @@
+{
+    "name": "rafa",
+    "lastName": "ola" ,
+    "age": 1,
+    "hobbies":
+    [
+    {
+        "name":"futebol"
+    }    
+    ]
+}

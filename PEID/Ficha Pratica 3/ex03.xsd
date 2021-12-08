@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="empresas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="empresa" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="designacao" type="xs:string"></xs:element>
+                            <xs:element name="localidade" type="xs:string"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="departamentos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="departamento" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id_empresa" type="xs:positiveInteger"></xs:element>
+                                        <xs:element name="designacao" type="xs:string"></xs:element>
+                                        <xs:element name="telefone" type="xs:positiveInteger"></xs:element>
+                                        <xs:element name="email" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="numero" type="xs:positiveInteger"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Funcionarios">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="funcionario" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id_departamento" type="xs:positiveInteger"></xs:element>
+                                        <xs:element name="morada" type="xs:string"></xs:element>
+                                        <xs:element name="email" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:positiveInteger"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
