@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recibo>
-    <numero>3421</numero>
-    <data>10-01-2022</data>
+<Recibo>
+    <Numero>3421</Numero>
+    <Data>10-01-2022</Data>
     <Produtos>
         <Produto>
             <Nome>Bola de tenis</Nome>
@@ -14,4 +14,4 @@
             <Preco>115.5</Preco>
         </Produto>
     </Produtos>
-</recibo>
+</Recibo>
